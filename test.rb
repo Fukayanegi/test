@@ -14,3 +14,11 @@ end
 
 c = MyClass.new
 c.say_hello
+
+def a.something_special
+  self.each do |obj|
+    puts "This is special " + obj.upcase
+  end
+end
+
+a.something_special()
