@@ -22,3 +22,5 @@ def a.something_special
 end
 
 a.something_special()
+
+puts "issue #1"
